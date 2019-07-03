@@ -1,0 +1,96 @@
+
+/*
+ Theme Name:   Accelerate Theme Child
+ Theme URI:    http://example.com/accelerate-theme-child/
+ Description:  Accelerate Child Theme - Accelerate
+ Author:       Christine Lucido
+ Author URI:   http://example.com
+ Template:     accelerate-theme
+ Version:      2.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  accelerate-theme-child
+*/
+.home-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+	margin:0 0 3em;
+}
+#masthead {
+    background: none repeat scroll 0 0 #45ac9d;
+}
+.button {
+	background: none repeat scroll 0 0 #45ac9d;
+}
+.blog-post {
+	width: 50%;
+	float: left;
+	margin-bottom: 2em;
+}
+.blog-post h4 {
+    font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+    color: #a6a6a6;
+    text-transform: uppercase;
+    margin: 2em 0 .5em;
+}
+.blog-post h3 {
+	font-size: 1.5em;
+}
+.read-more-link {
+	font-family: 'Montserrat';
+	font-weight: 700;
+	color: #45ac9d;
+	text-transform: uppercase;
+}
+/*Case Studies */
+aside.case-study-sidebar {
+	float: left;
+	width: 32%;
+	padding: 1%;
+	margin-top:4%;
+}
+aside.case-study-sidebar h2{
+	font: 25px 'Open Sans', Arial, sans-serif;
+	font-weight: 600;
+}
+aside.case-study-sidebar h5 {
+	font: 14px 'Open Sans', Arial, sans-serif;
+    color: #a6a6a6;
+    text-transform: none;
+	margin-top:0;
+}
+aside.case-study-sidebar h6 {
+	font: 14px 'Open Sans', Arial, sans-serif;
+    color: #2b2b2b;
+	margin-top:15px;
+}
+aside.case-study-sidebar p {
+	margin: 30px 0;
+}
+div.case-study-images {
+	float:left;
+	width:68%;
+	margin-top:5%;
+	padding: 0;
+	padding: 0 2% 0 10%;
+}
+div.case-study-images img {
+	padding-bottom:10%;
+}
+/*Homepage Featured Work */
+.featured-work h4 {
+	text-align:center;
+	text-transform: uppercase;
+}
+.homepage-featured-work {
+	display:flex;
+}
+.individual-featured-work {
+	width:33.3%;
+	list-style:none;
+	padding: 2%;
+}
+.individual-featured-work h3 {
+	font: 16.5px 'Open Sans', Arial, sans-serif;
+	font-weight: 600;
+	text-align: center;
+	margin: 1em 0;
+}
